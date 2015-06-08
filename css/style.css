@@ -1,43 +1,22 @@
-/* ------------------------------------------------------------------------------------------------------------- Open Sans, Google Font */
-@import url(http://fonts.googleapis.com/css?family=Dosis|Open+Sans&subset=latin,latin-ext);
+/* Dosis, Open Sans, Google Font */
+@import url(http://fonts.googleapis.com/css?family=Dosis|Open+Sans:600italic,700italic,700,300);
 
-p {
-   font-family: 'Open Sans', sans-serif;
-}
-
-/* ------------------------------------------------------------------------------------------------------------------------------ Header */
-header h1 {
+/* Header */
+a h1 {
     font-family: 'Dosis', sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: normal;
-    margin-top: 0px;
+    margin-top: 4px;
     float: left;
-    cursor:url(../img/cat_emoji.gif),url(myBall.cur),auto;
-}
-
-h1 a {
     color: black;
     text-decoration: none;
 }
 
 header {
-    padding-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
-/* ----------------------------------------------------------------------------------------------------------------- Liens de navigation */
-a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-nav li a {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-
+/* Nav */
 nav ul {
     list-style: none;
     text-align: right;
@@ -49,19 +28,43 @@ nav li {
     padding-left: 20px;
 }
 
-nav li a:hover {
-    color: dodgerblue;
-    border-bottom: 2px solid;
+nav li a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
 }
 
-/* -------------------------------------------------------------------------------------------------------------------------------- Body */
+nav li a:hover {
+    color: black;
+}
+
+a:visited h1 {
+    color: black;
+}
+
+.page a {
+    color: black;
+    font-weight: bold;
+}
+
+/* HTML */
 body {
     margin: auto;
     width: 960px;
 }
 
-/* ----------------------------------------------------------------------------------------------------------------------------- Accueil */
+header, section, footer {
+    
+    padding: 0px 10px 0px 10px;
+}
 
+img {
+    width: 940px;
+    height: auto;
+}
+
+/* Accueil */
 section h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
@@ -70,22 +73,90 @@ section h1 {
     font-style: italic;
 }
 
+section h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .titre {
-    line-height: 100px;
+    line-height: -100px;
+}
+
+section p {
+   font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
 }
 
 .description {
+    padding-top: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    font-size: 15px;
     font-style: italic;
     text-align: justify;
 }
 
-.credit {
+.marge {
+    margin-top: 25px;
+}
+
+.espace {
+    padding-top: 40px;
+}
+
+
+/* Contact */
+form {
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid red 2px;
+    text-align: center;
+}
+
+.genre {
+    border: solid 2px black;
+}
+
+.t1 {
+    border: solid 2px black;
+    float: right;
+    padding: 10px 0px 10px 0px;
+}
+
+.t2 {
+    border: solid 2px black;
+    float: right;
+    padding: 10px 0px 10px 0px;
+}
+
+.t3 {
+    border: solid 2px black;
+    float: right;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Footer */
+footer {
+    
+    border-top: 1px solid;
+    width: 940px;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
     float: right;
 }
 
-footer {
-    border-top: 1px solid;
-    margin-top: 30px;
+footer a, footer a:visited {
+    color: black;
+    text-decoration: none;
 }

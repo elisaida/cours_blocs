@@ -4,25 +4,58 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="shortcut icon" href="../favicon.png">
-        <title>Portfolio E & J | Contact</title>
+        <title>Portfolio J & E | Contact</title>
     </head>
     
     <body>
         <header>
-            <a href="../index.html"><h1>E & J</h1></a>
+            <a href="../index.html"><h1>J & E</h1></a>
             <nav>
                 <ul>
                     <li>
-                        <a href="../index.html">Présentation</a>
+                        <a href="../index.html">présentation</a>
                     </li>
                     <li>
-                        <a href="./portfolio.html">Portfolio</a>
+                        <a href="./portfolio.html">portfolio</a>
                     </li>
-                    <li>
-                        <a href="./contact.html">Contact</a>
+                    <li class="page">
+                        <a href="./contact.html">contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
+        <section>
+            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique diam felis, non semper diam vehicula non.</h1>
+            <form method="post" action="../php/traitement.php">
+                <p>
+                    <div class="genre">
+                        <label class="f" for="f">Madame
+                            <input type="radio" name="sex" value="f" id="f" checked="checked">
+                        </label>
+                        <label class="m" for="m">Monsieur
+                            <input type="radio" name="sex" value="m" id="m">
+                        </label>
+                    </div>
+                    <br>
+                    <label class="t1" for="name">Nom
+                        <input class="txt" type="text" name="name" id="name" size="60">
+                    </label>
+                    <br>
+                    <label class="t2" for="first_name">Prénom
+                        <input type="text" name="first_name" id="first_name" size="60">
+                    </label>
+                    <br>
+                <div class="t3">
+                    <label for="message">Message
+                        <textarea name="message" id="message" rows="10" cols="58"></textarea>
+                    </label>
+                </div>
+                    <br>
+                </p>
+            </form>
+        </section>
+        <footer>
+            <p>&copy;Julien Widmer et Elisa Gruaz 2015 - Crédits photos <a href="http://www.unsplash.com">unsplash.com</a></p>
+        </footer>
     </body>
 </html>
