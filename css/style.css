@@ -52,6 +52,7 @@ a:visited h1 {
 body {
     margin: auto;
     width: 960px;
+    background-color: #F0F0F0;
 }
 
 header, section, footer {
@@ -81,7 +82,11 @@ section h2 {
 }
 
 .titre {
-    line-height: -100px;
+    line-height: 80px;
+}
+    
+.img_accueil {
+    margin-top: 100px;
 }
 
 section p {
@@ -93,7 +98,7 @@ section p {
 }
 
 .description {
-    padding-top: 30px;
+    padding-top: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -109,35 +114,72 @@ section p {
     padding-top: 40px;
 }
 
-
 /* Contact */
 form {
-    margin-left: 150px;
-    margin-right: 150px;
-    border: solid red 2px;
-    text-align: center;
+    margin-left: 160px;
+    width: 540px;
+    margin-right: 240px;
+	height: 370px;
+    padding-top: 10px;
 }
 
-.genre {
-    border: solid 2px black;
+label {
+	width: 140px;
+	font-weight: bold;
 }
 
-.t1 {
-    border: solid 2px black;
-    float: right;
-    padding: 10px 0px 10px 0px;
+.mme {
+	margin-left: 157px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
-.t2 {
-    border: solid 2px black;
-    float: right;
-    padding: 10px 0px 10px 0px;
+.mr {
+	margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
-.t3 {
-    border: solid 2px black;
-    float: right;
-    padding: 10px 0px 10px 0px;
+.txt, textarea, .submit {
+	width: 380px;
+	float: right;
+	margin-top: 17px;
+	font-size: 20px;
+	border: 1px solid white;
+}
+
+.npm{
+	float: left;
+    text-align: right;
+	margin-top: 30px;
+	font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.txt{
+	height: 40px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+    resize: none;
+	height: 180px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input[type="submit"] {
+	font-size: 18pt;
+	font-weight: bold;
+	border: none;
+	background-color: transparent; 
+	padding: 0;
+	font-style: italic;
+	text-decoration: underline;
+	color: black;
+	text-align: right;
+    width: 160px;
 }
 
 /* Footer */
